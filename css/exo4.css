@@ -3,3 +3,30 @@
  * Un tour au panama ?
  */
 
+.flag {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.blanc{
+    display: block;
+    margin: auto;
+    
+    
+}
+.bleu{
+    background-color: #005293;
+    height: calc(350px/2);
+    width: calc(525px/2);
+
+
+}
+.rouge{
+    background-color: #D21034;
+    height: calc(350px/2);
+    width: calc(525px/2);
+
+}
