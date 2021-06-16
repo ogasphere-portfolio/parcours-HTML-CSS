@@ -12,3 +12,47 @@
  * - fond ligne impaire : #ffffff
  * - textes : #678197 / font : Arial
  */
+#aToiDeJouer{
+    box-sizing: border-box;
+    
+   
+}
+table{
+    border-collapse: collapse;
+    background-color: #ffffff ; 
+}
+td,th {
+	border: 2px solid #e5eff8;
+    padding: 0.5em;
+}
+td{
+    text-align: center;
+}
+ thead,tfoot{
+     
+     background-color: #f4f9fe;
+     font-family: 'Trebuchet MS', Arial;
+     color: #66a3d3;
+
+
+ }
+ thead.th{
+    
+    padding: 10em;
+ }
+ .column1{
+     background-color: #f9fcfe;
+ }
+ .odd { 
+     background-color :#f7fbff; 
+  }
+  em{
+     color: #f03b58; 
+  }
+ a{
+    background-image:linear-gradient(#f0fbff,#cae0ed);
+    color: #d42945;
+    border: 2px solid #cae0ed;
+    border-radius: 1em;
+    padding: 0.1em 0.5em;
+ }
